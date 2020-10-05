@@ -34,8 +34,13 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
     "react-slick": "^0.27.11",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "typeface-bebas-neue": "^1.1.3",
+    "typeface-mukta": "0.0.72",
+    "typeface-pacifico": "^1.1.3",
+    "typeface-rubik": "0.0.72"
   },
   "devDependencies": {
     "cross-env": "^5.2.0"

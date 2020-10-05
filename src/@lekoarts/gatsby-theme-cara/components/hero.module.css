@@ -1,0 +1,159 @@
+
+
+.newFill{
+
+object-fit: cover;
+display: block!important;
+width: 100%;
+height: 100vh;
+background-color: #000000;
+}
+
+
+.capp{
+
+  text-align: left !important;
+    }
+
+.preview {
+ padding:0px !important ;
+background-color: black;
+
+ /*
+    object-position: center center;
+        */
+   
+
+        justify-content: flex-start !important;
+
+
+}
+    
+    .previewTitle {
+      font-size: 1.1em;
+      font-weight: 500;
+      color:#212529;
+      margin-bottom: 1px;
+    }
+    
+    .hero {
+        position: relative;
+        background: #000;
+        color: #fff;
+        text-align: center;
+      
+      }
+      
+      
+      
+      .heroImage {
+        /*
+          Ensure golden ratio for the hero size while limiting it to some extend to
+          the viewport width
+        */
+        height: 61.8vh;
+        max-height: 400px;
+      }
+      
+      
+      .heroImageInstructor {
+        /*
+          Ensure golden ratio for the hero size while limiting it to some extend to
+          the viewport width
+      
+          height: 61.8vh;
+        max-height: 400px;
+        
+        */
+        height: 80vh;
+      
+      }
+      
+      .heroDetails {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.7);
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 0);
+        font-size: 14px;
+        padding: 0 0.5em;
+      }
+      
+      @media(min-width: 300px) {
+        .heroDetails {
+          font-size: 16px;
+        }
+        .instructHero {
+          position: relative;
+          padding-top:0vmin;
+          padding:0;
+        }
+        .heroImageInstructor {
+          /*
+            Ensure golden ratio for the hero size while limiting it to some extend to
+            the viewport width
+        
+            height: 61.8vh;
+          max-height: 400px;
+          
+          */
+          height: 61.8vh;
+          max-height: 350px;
+        }
+      }
+      
+      @media(min-width: 600px) {
+      
+        .heroImageInstructor {
+          /*
+            Ensure golden ratio for the hero size while limiting it to some extend to
+            the viewport width
+        
+            height: 61.8vh;
+          max-height: 400px;
+          
+          */
+          height: 80vh;
+          max-height: 500px;
+        
+        }
+      }
+      
+      @media(min-width: 1200px) {
+        .heroDetails {
+          font-size: 20px;
+        }
+        .instructHero {
+          position: relative;
+          padding-left:5vmin;
+          padding-top:5vmin;
+        
+        }
+        .heroImageInstructor {
+          /*
+            Ensure golden ratio for the hero size while limiting it to some extend to
+            the viewport width
+        
+            height: 61.8vh;
+          max-height: 400px;
+          
+          */
+          height: 80vh;
+          max-height: 700px;
+      
+        
+        }
+      }
+      
+      .heroHeadline {
+        margin: 0;
+      }
+      
+      .heroTitle {
+        margin: 0;
+        font-size: 1.125em;
+        font-weight: bold;
+      }
+      
+      
+      
