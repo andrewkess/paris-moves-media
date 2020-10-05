@@ -14,12 +14,13 @@ module.exports = {
   plugins: [
 
 
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/images`,
-        name: 'images'
-      }
+        name: `sections`,
+        path: `${__dirname}/src/sections`,
+      },
     },
 
     {

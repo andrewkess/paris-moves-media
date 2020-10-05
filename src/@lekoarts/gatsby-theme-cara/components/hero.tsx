@@ -5,7 +5,7 @@ import Inner from "../elements/inner"
 import Content from "../elements/content"
 
 
-import logo from "../sections/ramy-keyframe.jpg" // Tell webpack this JS file uses this image
+import logo from  "../sections/ramy-keyframe.jpg" // Tell webpack this JS file uses this image
 
 
 import logoTwo from "../sections/king-keyframe.jpeg" // Tell webpack this JS file uses this image
