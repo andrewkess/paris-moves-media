@@ -30,14 +30,3 @@ const Cara = () => (
 
 export default Cara
 
-export const pageQuery = graphql`
-  query {
-    imageOne: file(relativePath: { eq: "ramy-keyframe.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`;
